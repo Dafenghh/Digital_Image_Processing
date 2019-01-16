@@ -285,15 +285,19 @@ imwrite(B, 'blobz2_adaptive_thresholding.png');
 ## 3. 实验结果
 
 blobz1.png原图像：
+
 ![blobz1.png-38kB][1]
 
 blobz1.png分割结果：
+
 ![blobz1_seg.png-2.3kB][2]
 
 blobz2.png原图像：
+
 ![blobz2.png-33kB][3]
 
 blobz2.png分割结果：
+
 ![blobz2_adaptive_thresholding.png-3.5kB][4]
 
 
