@@ -16,7 +16,7 @@
 
 ## 2. 源代码
 
-```m
+```matlab
 function [ res ] = GetVal( A, x, y )
 % 返回A(x,y),如果超出范围则返回0
     if IsValidRange(A, x, y)
@@ -207,4 +207,3 @@ result_of_f_2 =
      0     0     0     0     0     0     0
 
 
-     
