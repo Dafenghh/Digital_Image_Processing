@@ -1,10 +1,9 @@
 function [ res ] = GetVal( A, x, y )
-%·µ»ØA(x,y),Èç¹û³¬³ö·¶Î§Ôò·µ»Ø0
+% è¿”å›žA(x,y),å¦‚æžœè¶…å‡ºèŒƒå›´åˆ™è¿”å›ž0
     if IsValidRange(A, x, y)
         res = A(x,y);
     else 
         res = 0;
     end 
-
 end
 
